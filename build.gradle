@@ -1,0 +1,51 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion conf.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion conf.minSdkVersion
+        targetSdkVersion conf.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+}
+
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'ptr-lib'
+
+    publishedGroupId = 'com.sqq.xiaqu'
+    libraryName = 'ptr-lib'
+    artifact = 'ptr-lib'
+
+    libraryVersion = '1.0.0'
+
+    libraryDescription = '廖虎秋大神android-Ultra-Pull-To-Refresh开源库的再打包'
+
+    siteUrl = 'https://github.com/xiaqu-stone/PTRLib'
+    gitUrl = 'https://github.com/xiaqu-stone/PTRLib.git'
+
+    developerId = 'stone'
+    developerName = 'xiaqu-stone'
+    developerEmail = 'stone.xiaqu@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+apply from: "../install.gradle"
+apply from: "../bintray.gradle"
+

@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- 权限 start -->
+    <string name="setting">设置</string>
+    <string name="perm_tip">当前应用缺少必要权限。\n请点击"设置"-"权限"-打开所需权限。\n最后点击两次后退按钮，即可返回。</string>
+    <string name="ask_again">请给予应用必要权限，让程序可正常工作。</string>
+    <string name="cancel">取消</string>
+
+    <string name="title_location">请允许获取位置信息</string>
+    <string name="ask_location_content">请在“系统设置->应用列表->带上钱->权限”中打开“位置服务”，否则无法申请贷款</string>
+    <string name="normal_location">允许“带上钱”在您使用该应用时获取您的位置信息吗？\n\n开启此服务，可提高审核通过率</string>
+
+    <string name="title_contract">请允许获取通讯录</string>
+    <string name="ask_contract_content">请在“系统设置->应用列表->带上钱->权限”中打开“读取联系人”，否则无法申请贷款</string>
+    <string name="normal_contract">允许“带上钱”在您使用该应用时获取您的联系人信息吗？\n\n开启此服务，可提高审核通过率</string>
+
+    <string name="get_contracts_error">联系人获取不到，请确认通讯录权限是否打开</string>
+
+    <string name="title_call">请允许获取通话记录</string>
+    <string name="ask_call_content">请在“系统设置->应用列表->带上钱->权限”中打开“读取通话记录”，否则无法申请贷款</string>
+    <string name="normal_call">允许“带上钱”在您使用该应用时获取您的通话记录信息吗？\n\n开启此服务，可提高审核通过率</string>
+
+    <string name="title_phonestate">请允许获取设备信息</string>
+    <string name="ask_phonestate_content">请在“系统设置->应用列表->带上钱->权限”中打开“读取手机状态”，否则无法申请贷款</string>
+    <string name="normal_phonestate">允许“带上钱”在您使用该应用时获取您的手机设备信息吗？\n\n开启此服务，可提高审核通过率</string>
+
+    <string name="title_storage">请允获取存储空间</string>
+    <string name="ask_storage_content">请在“系统设置->应用列表->带上钱->权限”中打开“读取您的外部存储设备中的内容”，否则无法申请贷款</string>
+    <string name="normal_storage">为保证功能正常运行，请您授予带上钱访问照片的权限</string>
+
+    <string name="title_sms">请允获取短信功能</string>
+    <string name="ask_sms_content">请在“系统设置->应用列表->带上钱->权限”中打开“读取短信”，否则无法申请贷款</string>
+    <string name="normal_sms">允许“带上钱”在您使用该应用时获取您的短信息吗？\n\n开启此服务，可提高审核通过率</string>
+
+    <string name="title_camera">请允相机功能</string>
+    <string name="ask_camera_content">请在“系统设置->应用列表->带上钱->权限”中打开“相机”，否则无法申请贷款</string>
+    <string name="normal_camera">允许“带上钱”在您使用拍照的功能吗？\n\n开启此服务，可提高审核通过率</string>
+
+    <string name="ask_nag">拒绝</string>
+    <string name="ask_null"></string>
+    <string name="ask_position">去设置</string>
+    <!-- 权限 end -->
+
+    <string name="title_calender">请允许日历功能</string>
+    <string name="ask_calender_content">请在“系统设置->应用列表->带上钱->权限”中打开“日历”</string>
+    <string name="normal_calender">允许“带上钱”访问日历的功能吗？\n\n开启此服务，可降低逾期率</string>
+
+</resources>
